@@ -1,0 +1,53 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Rooms",
+      "url": "/rooms"
+    },
+    {
+      "name": "Events",
+      "url": "/events"
+    },
+    {
+      "name": "Services",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Restaurants and Bars",
+          "url": "/restaurants-&-bars"
+        },
+        {
+          "name": "Conference Rooms",
+          "url": "/conference-rooms"
+        },
+        {
+          "name": "Recreation and Activites",
+          "url": "/recreation-&-activities"
+        }
+      ]
+    },
+    {
+      "name": "Gallery",
+      "url": "/gallery"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
+    }
+  ]
+}

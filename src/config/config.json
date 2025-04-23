@@ -1,0 +1,51 @@
+{
+  "site": {
+    "title": "Hippoview Lodge | Best Lodge in Malawi",
+    "base_url": "https://hippoviewpicslodge.com",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/Hippoview-logo.png",
+    "logo_darkmode": "/images/Hippoview-logo.png",
+    "logo_width": "90",
+    "logo_height": "80",
+    "logo_text": "Hippoview logo"
+  },
+
+  "settings": {
+    "search": false,
+    "sticky_header": true,
+    "theme_switcher": false,
+    "default_theme": "light",
+    "pagination": 3,
+    "pagination_list": 4,
+    "summary_length": 150,
+    "blog_folder": "blog",
+    "rooms_folder": "rooms",
+    "conf_rooms_folder": "confRooms"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Designed And Developed by Techmine INC."
+  },
+
+  "navigation_button": {
+    "enable": true,
+    "label": "Make an Inquiry",
+    "link": "/contact"
+  },
+
+  "disqus": {
+    "enable": false,
+    "shortname": "hippoview-template",
+    "settings": {}
+  },
+
+  "metadata": {
+    "meta_author": "Hippoview Lodge",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Discover the epitome of luxury and relaxation at hippoview Lodge, a 5-star Lodge located in Liwonde, Malawi. Enjoy breathtaking views of Shire River, unparalleled hospitality, and book your stay with us. Experience the best of Lodge in Malawi with hippoview Lodge.",
+    "meta_keywords": "Shire River, Hippoview Lodge, Hippoview, Hippo, retreat, southern shire river malawi, southern malawi accommodation, shire river malawi villas, hotels, Lodges, Malawi, Liwonde, 5 Star hotels, Shire River, hotels in Malawi, Hotels in Liwonde, Lodges in malawi, Lodges in Liwonde, lake Malawi Lodges"
+  }
+}
