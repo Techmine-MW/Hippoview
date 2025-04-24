@@ -7,7 +7,7 @@
   "packageManager": "yarn@1.22.19",
   "scripts": {
     "dev": "yarn generate-json && next dev",
-    "build": "yarn generate-json && next build",
+    "build": "npm install --legacy-peer-deps && yarn generate-json && next build",
     "preview": "next start",
     "postbuild": "next-sitemap",
     "lint": "next lint",
@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@studio-freight/react-lenis": "^0.0.43",
-    "date-fns": "^3.3.1",
+    "date-fns": "^2.30.0",
     "date-fns-tz": "^2.0.0",
     "disqus-react": "^1.1.5",
     "flowbite-react": "^0.7.2",
