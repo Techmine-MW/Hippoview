@@ -14,7 +14,7 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 
 const RoomPageHeaderImages = ({ data }: any) => {
-    return (
+    return (//jh
         <>
             <Swiper
                 modules={[Autoplay, Pagination, Navigation]}
