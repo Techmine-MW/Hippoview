@@ -1,10 +1,10 @@
-import ScrollCardAnimation from "../../layouts/components/ScrollCardAnimation";
-import ImageFallback from "../../layouts/helpers/ImageFallback";
-import MDXContent from "../../layouts/helpers/MDXContent";
-import { getListPage } from "../../lib/contentParser";
-import { markdownify } from "../../lib/utils/textConverter";
-import SeoMeta from "../../layouts/partials/SeoMeta";
-import { Stories } from "../../types";
+import ScrollCardAnimation from "@/components/ScrollCardAnimation";
+import ImageFallback from "@/helpers/ImageFallback";
+import MDXContent from "@/helpers/MDXContent";
+import { getListPage } from "@/lib/contentParser";
+import { markdownify } from "@/lib/utils/textConverter";
+import SeoMeta from "@/partials/SeoMeta";
+import { Stories } from "@/types";
 import { FaCheck } from "react-icons/fa6";
 
 const About = () => {

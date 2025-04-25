@@ -1,6 +1,6 @@
 "use client";
 
-import ImageFallback from "../layouts/helpers/ImageFallback";
+import ImageFallback from "@/helpers/ImageFallback";
 import "swiper/css";
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';

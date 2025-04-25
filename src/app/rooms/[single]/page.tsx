@@ -1,14 +1,14 @@
-import config from "../../../config/config.json";
-import { getSinglePage } from "../../../lib/contentParser";
-import { markdownify } from "../../../lib/utils/textConverter";
-import SeoMeta from "../../../layouts/partials/SeoMeta";
-import { RoomDetails } from "../../../types";
+import config from "@/config/config.json";
+import { getSinglePage } from "@/lib/contentParser";
+import { markdownify } from "@/lib/utils/textConverter";
+import SeoMeta from "@/partials/SeoMeta";
+import { RoomDetails } from "@/types";
 import Link from "next/link";
 import { FaUsers } from "react-icons/fa6";
 import { IoIosBed } from "react-icons/io";
 import { FaMoneyBill } from "react-icons/fa";
-import ScrollCardAnimation from "../../../layouts/components/ScrollCardAnimation";
-import RoomPageHeaderImages from "../../../layouts/RoomPageHeaderImages";
+import ScrollCardAnimation from "@/components/ScrollCardAnimation";
+import RoomPageHeaderImages from "@/layouts/RoomPageHeaderImages";
 
 const { rooms_folder } = config.settings;
 

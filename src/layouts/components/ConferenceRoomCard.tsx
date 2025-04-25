@@ -1,5 +1,5 @@
-import ImageFallback from "../../layouts/helpers/ImageFallback";
-import { plainify } from "../../lib/utils/textConverter";
+import ImageFallback from "@/helpers/ImageFallback";
+import { plainify } from "@/lib/utils/textConverter";
 import Link from "next/link";
 
 const ConferenceRoomCard = ({ data }: { data: any }) => {

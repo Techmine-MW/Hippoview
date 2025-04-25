@@ -1,4 +1,3 @@
-const path = require("path");
 const config = require("./src/config/config.json");
 
 /** @type {import('next').NextConfig} */
@@ -11,23 +10,16 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "kwhkgdtbuzixujazmjgb.supabase.co",
+        hostname: "gspqgpzyhdhinyvtyugx.supabase.co",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "kwhkgdtbuixujazmjgb.supabase.co",
         port: "",
       },
     ],
   },
-  webpack: (config) => {
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      "@": path.resolve(__dirname, "src"),
-      "../layouts/components": path.resolve(__dirname, "src/layouts/components"),
-      "@/shortcodes": path.resolve(__dirname, "src/layouts/shortcodes"),
-      "../layouts/partials": path.resolve(__dirname, "src/layouts/partials"),
-      "../layouts/helpers": path.resolve(__dirname, "src/layouts/helpers"),
-      "../lib": path.resolve(__dirname, "src/lib"),
-    };
-    return config;
-  },  
 };
 
 module.exports = nextConfig;

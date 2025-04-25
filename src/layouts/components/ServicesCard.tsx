@@ -1,4 +1,4 @@
-import ImageFallback from "../../layouts/helpers/ImageFallback";
+import ImageFallback from "@/helpers/ImageFallback";
 import Link from "next/link";
 
 const ServicesCard = ({ data }: { data: any }) => {

@@ -1,15 +1,15 @@
-import BlogCard from "../../../layouts/components/BlogCard";
-import Disqus from "../../../layouts/components/Disqus";
-import Share from "../../../layouts/components/Share";
-import config from "../../../config/config.json";
-import ImageFallback from "../../../layouts/helpers/ImageFallback";
-import MDXContent from "../../../layouts/helpers/MDXContent";
-import { getSinglePage } from "../../../lib/contentParser";
-import dateFormat from "../../../lib/utils/dateFormat";
-import similerItems from "../../../lib/utils/similarItems";
-import { humanize, markdownify, slugify } from "../../../lib/utils/textConverter";
-import SeoMeta from "../../../layouts/partials/SeoMeta";
-import { Post } from "../../../types";
+import BlogCard from "@/components/BlogCard";
+import Disqus from "@/components/Disqus";
+import Share from "@/components/Share";
+import config from "@/config/config.json";
+import ImageFallback from "@/helpers/ImageFallback";
+import MDXContent from "@/helpers/MDXContent";
+import { getSinglePage } from "@/lib/contentParser";
+import dateFormat from "@/lib/utils/dateFormat";
+import similerItems from "@/lib/utils/similarItems";
+import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
+import SeoMeta from "@/partials/SeoMeta";
+import { Post } from "@/types";
 import Link from "next/link";
 import { FaRegClock, FaRegFolder, FaRegUserCircle } from "react-icons/fa";
 

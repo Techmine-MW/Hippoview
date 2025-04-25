@@ -1,10 +1,10 @@
-import { getSinglePage, getListPage } from "../../lib/contentParser";
-import ConferenceRoomCard from "../../layouts/components/ConferenceRoomCard";
-import { ConfRoomDetails } from "../../types";
-import SeoMeta from "../../layouts/partials/SeoMeta";
-import ScrollCardAnimation from "../../layouts/components/ScrollCardAnimation";
-import { humanize } from "../../lib/utils/textConverter";
-import ImageFallback from "../../layouts/helpers/ImageFallback";
+import { getSinglePage, getListPage } from "@/lib/contentParser";
+import ConferenceRoomCard from "@/components/ConferenceRoomCard";
+import { ConfRoomDetails } from "@/types";
+import SeoMeta from "@/partials/SeoMeta";
+import ScrollCardAnimation from "@/components/ScrollCardAnimation";
+import { humanize } from "@/lib/utils/textConverter";
+import ImageFallback from "@/helpers/ImageFallback";
 
 const ConferenceRooms = () => {
     const confRoomsIndex: ConfRoomDetails = getListPage("confRooms/_index.md");

@@ -1,6 +1,6 @@
 "use client";
 
-import ImageFallback from "../layouts/helpers/ImageFallback";
+import ImageFallback from "@/helpers/ImageFallback";
 import "swiper/css";
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
@@ -14,7 +14,7 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 
 const RoomPageHeaderImages = ({ data }: any) => {
-    return (//jh
+    return (
         <>
             <Swiper
                 modules={[Autoplay, Pagination, Navigation]}

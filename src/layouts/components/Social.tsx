@@ -1,4 +1,4 @@
-import DynamicIcon from "../../layouts/helpers/DynamicIcon";
+import DynamicIcon from "@/helpers/DynamicIcon";
 
 export interface ISocial {
   name: string;

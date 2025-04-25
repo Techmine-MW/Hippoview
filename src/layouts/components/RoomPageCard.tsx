@@ -1,4 +1,4 @@
-import { RoomDetails } from "../../types";
+import { RoomDetails } from "@/types";
 import Link from "next/link";
 import ImageFallback from "../helpers/ImageFallback";
 

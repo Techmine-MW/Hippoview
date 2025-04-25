@@ -2,11 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "target": "es6",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -26,33 +22,13 @@
       }
     ],
     "paths": {
-      "../layouts/components/*": [
-        "./src/layouts/components/*"
-      ],
-      "@/shortcodes/*": [
-        "./src/layouts/shortcodes/*"
-      ],
-      "../layouts/partials/*": [
-        "./src/layouts/partials/*"
-      ],
-      "../layouts/helpers/*": [
-        "./src/layouts/helpers/*"
-      ],
-      "../lib/*": [
-        "./src/lib/*"
-      ],
-      "@/*": [
-        "./src/*"
-      ]
+      "@/components/*": ["./src/layouts/components/*"],
+      "@/shortcodes/*": ["./src/layouts/shortcodes/*"],
+      "@/partials/*": ["./src/layouts/partials/*"],
+      "@/helpers/*": ["./src/layouts/helpers/*"],
+      "@/*": ["./src/*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }
