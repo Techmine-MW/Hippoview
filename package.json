@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@studio-freight/react-lenis": "^0.0.43",
+    "caniuse-lite": "^1.0.30001715",
     "date-fns": "^2.30.0",
     "date-fns-tz": "^2.0.0",
     "disqus-react": "^1.1.5",

@@ -30,7 +30,7 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx}",
     "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
-  safelist: [{ pattern: /^swiper-/ }],
+  safelist: [{ pattern: /^swiper-/ }], // Ensure you are using classes like swiper-slide, swiper-container, etc., in your project
   darkMode: "class",
   theme: {
     screens: {
