@@ -1,4 +1,4 @@
-import ImageFallback from "@/helpers/ImageFallback";
+import ImageFallback from "../layouts/helpers/ImageFallback";
 import Link from "next/link";
 
 const EventsCard = ({ data }: { data: any }) => {

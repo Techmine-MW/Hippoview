@@ -35,7 +35,7 @@
       "@/partials/*": [
         "./src/layouts/partials/*"
       ],
-      "@/helpers/*": [
+      "../layouts/helpers/*": [
         "./src/layouts/helpers/*"
       ],
       "@/lib/*": [

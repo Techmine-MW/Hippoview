@@ -1,5 +1,5 @@
 import ScrollCardAnimation from "@/components/ScrollCardAnimation";
-import ImageFallback from "@/helpers/ImageFallback";
+import ImageFallback from "../layouts/helpers/ImageFallback";
 import RecreationActivitiesPics from "@/layouts/RecreationActivitiesPics";
 import { getListPage } from "@/lib/contentParser";
 import { humanize } from "@/lib/utils/textConverter";

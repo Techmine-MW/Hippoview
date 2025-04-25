@@ -1,4 +1,4 @@
-import ImageFallback from "@/helpers/ImageFallback";
+import ImageFallback from "../layouts/helpers/ImageFallback";
 import { getListPage, getSinglePage } from "@/lib/contentParser";
 import { markdownify } from "@/lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";

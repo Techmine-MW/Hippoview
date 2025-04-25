@@ -4,7 +4,7 @@ import { ConfRoomDetails } from "@/types";
 import SeoMeta from "@/partials/SeoMeta";
 import ScrollCardAnimation from "@/components/ScrollCardAnimation";
 import { humanize } from "@/lib/utils/textConverter";
-import ImageFallback from "@/helpers/ImageFallback";
+import ImageFallback from "../layouts/helpers/ImageFallback";
 
 const ConferenceRooms = () => {
     const confRoomsIndex: ConfRoomDetails = getListPage("confRooms/_index.md");

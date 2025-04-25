@@ -1,6 +1,6 @@
 import ScrollCardAnimation from "@/components/ScrollCardAnimation";
-import ImageFallback from "@/helpers/ImageFallback";
-import MDXContent from "@/helpers/MDXContent";
+import ImageFallback from "../layouts/helpers/ImageFallback";
+import MDXContent from "../layouts/helpers/MDXContent";
 import { getListPage } from "@/lib/contentParser";
 import { markdownify } from "@/lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";

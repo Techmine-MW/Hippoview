@@ -1,4 +1,4 @@
-import ImageFallback from "@/helpers/ImageFallback";
+import ImageFallback from "../layouts/helpers/ImageFallback";
 import { plainify } from "@/lib/utils/textConverter";
 import Link from "next/link";
 

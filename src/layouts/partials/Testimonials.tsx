@@ -1,6 +1,6 @@
 "use client";
 
-import ImageFallback from "@/helpers/ImageFallback";
+import ImageFallback from "../layouts/helpers/ImageFallback";
 import { markdownify } from "@/lib/utils/textConverter";
 import { Testimonial } from "@/types";
 import "swiper/css";

@@ -1,6 +1,6 @@
 import CateringPics from "@/components/CateringPics";
 import ScrollCardAnimation from "@/components/ScrollCardAnimation";
-import ImageFallback from "@/helpers/ImageFallback";
+import ImageFallback from "../layouts/helpers/ImageFallback";
 import { getListPage } from "@/lib/contentParser";
 import { humanize, markdownify } from "@/lib/utils/textConverter";
 import PageHeader from "@/partials/PageHeader";

@@ -1,5 +1,5 @@
-import ImageFallback from "@/helpers/ImageFallback";
-import MDXContent from "@/helpers/MDXContent";
+import ImageFallback from "../layouts/helpers/ImageFallback";
+import MDXContent from "../layouts/helpers/MDXContent";
 import ConferenceRoomPageHeaderImages from "@/layouts/ConferenceRoomPageHeaderImages";
 import { getSinglePage } from "@/lib/contentParser";
 import { humanize } from "@/lib/utils/textConverter";

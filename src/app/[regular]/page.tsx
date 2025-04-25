@@ -1,4 +1,4 @@
-import MDXContent from "@/helpers/MDXContent";
+import MDXContent from "../../layouts/helpers/MDXContent";
 import { getSinglePage } from "@/lib/contentParser";
 import PageHeader from "@/partials/PageHeader";
 import SeoMeta from "@/partials/SeoMeta";
