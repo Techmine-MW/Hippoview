@@ -15,7 +15,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "kwhkgdtbuixujazmjgb.supabase.co",
+        hostname: "kwhkgdtbuzixujazmjgb.supabase.co",
         port: "",
       },
     ],
