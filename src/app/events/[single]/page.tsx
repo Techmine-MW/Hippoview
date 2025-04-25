@@ -1,8 +1,8 @@
-import ImageFallback from "../layouts/helpers/ImageFallback";
-import { getSinglePage } from "../lib/contentParser";
-import { markdownify } from "../lib/utils/textConverter";
-import SeoMeta from "../layouts/partials/SeoMeta";
-import { Events } from "../types";
+import ImageFallback from "../../../layouts/helpers/ImageFallback";
+import { getSinglePage } from "../../../lib/contentParser";
+import { markdownify } from "../../../lib/utils/textConverter";
+import SeoMeta from "../../../layouts/partials/SeoMeta";
+import { Events } from "../../../types";
 
 // remove dynamicParams
 export const dynamicParams = false;

@@ -1,7 +1,11 @@
+// src/layouts/components/photos.ts
+
+import type { Photo } from "react-photo-album";
+
 const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
 
-const supabaseLink = (name: string) => 
-`https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/homePage/${name}`
+const supabaseLink = (name: string) =>
+  `https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/homePage/${name}`;
 
 const supabasePhotos = [
   { name: "image-placeholder.png?t=2023-12-19T07%3A50%3A36.744Z", width: 1080, height: 800 },
@@ -27,7 +31,7 @@ const supabasePhotos = [
   { name: "image-placeholder.png?t=2023-12-19T07%3A50%3A36.744Z", width: 1080, height: 1440 },
 ];
 
-const images = supabasePhotos.map((image) => ({
+const images: Photo[] = supabasePhotos.map((image) => ({
   src: supabaseLink(image.name),
   width: image.width,
   height: image.height,
@@ -39,6 +43,6 @@ const images = supabasePhotos.map((image) => ({
       height,
     };
   }),
-}))
+}));
 
 export default images;

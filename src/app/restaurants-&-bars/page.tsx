@@ -1,10 +1,10 @@
-import CateringPics from "../layouts/components/CateringPics";
-import ScrollCardAnimation from "../layouts/components/ScrollCardAnimation";
-import ImageFallback from "../layouts/helpers/ImageFallback";
-import { getListPage } from "../lib/contentParser";
-import { humanize, markdownify } from "../lib/utils/textConverter";
-import PageHeader from "../layouts/partials/PageHeader";
-import SeoMeta from "../layouts/partials/SeoMeta";
+import CateringPics from "../../layouts/components/CateringPics";
+import ScrollCardAnimation from "../../layouts/components/ScrollCardAnimation";
+import ImageFallback from "../../layouts/helpers/ImageFallback";
+import { getListPage } from "../../lib/contentParser";
+import { humanize, markdownify } from "../../lib/utils/textConverter";
+import PageHeader from "../../layouts/partials/PageHeader";
+import SeoMeta from "../../layouts/partials/SeoMeta";
 
 const RestaurantsBars = () => {
     const catering = getListPage("catering/_index.md");

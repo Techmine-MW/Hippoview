@@ -1,8 +1,8 @@
-import config from "../config/config.json";
-import { getAllTaxonomy, getTaxonomy } from "../lib/taxonomyParser";
-import { humanize } from "../lib/utils/textConverter";
-import PageHeader from "../layouts/partials/PageHeader";
-import SeoMeta from "../layouts/partials/SeoMeta";
+import config from "../../config/config.json";
+import { getAllTaxonomy, getTaxonomy } from "../../lib/taxonomyParser";
+import { humanize } from "../../lib/utils/textConverter";
+import PageHeader from "../../layouts/partials/PageHeader";
+import SeoMeta from "../../layouts/partials/SeoMeta";
 import Link from "next/link";
 
 const Categories = () => {

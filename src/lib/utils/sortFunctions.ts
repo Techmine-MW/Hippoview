@@ -1,4 +1,4 @@
-import { Post, RoomDetails } from "../types";
+import { Post, RoomDetails } from "../../types";
 
 // sort by date
 export const sortByDate = (array: Post[]) => {

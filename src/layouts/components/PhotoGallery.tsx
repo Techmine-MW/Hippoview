@@ -5,8 +5,10 @@ import "yet-another-react-lightbox/styles.css";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import PhotoAlbum from "react-photo-album";
-import NextJsImage from "../layouts/components/NextJsImage";
-import images from "../layouts/components/photos";
+import NextJsImage from "../../layouts/components/NextJsImage";
+import images from "../../layouts/components/photos";
+import type { Photo, RenderPhotoProps } from "react-photo-album";
+
 
 export default function PhotoGallery() {
     const [index, setIndex] = useState(-1);

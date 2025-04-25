@@ -1,12 +1,12 @@
-import BlogCard from "../layouts/components/BlogCard";
-import config from "../config/config.json";
-import { getSinglePage } from "../lib/contentParser";
-import { getTaxonomy } from "../lib/taxonomyParser";
-import taxonomyFilter from "../lib/utils/taxonomyFilter";
-import { humanize } from "../lib/utils/textConverter";
-import PageHeader from "../layouts/partials/PageHeader";
-import SeoMeta from "../layouts/partials/SeoMeta";
-import { Post } from "../types";
+import BlogCard from "../../../layouts/components/BlogCard";
+import config from "../../../config/config.json";
+import { getSinglePage } from "../../../lib/contentParser";
+import { getTaxonomy } from "../../../lib/taxonomyParser";
+import taxonomyFilter from "../../../lib/utils/taxonomyFilter";
+import { humanize } from "../../../lib/utils/textConverter";
+import PageHeader from "../../../layouts/partials/PageHeader";
+import SeoMeta from "../../../layouts/partials/SeoMeta";
+import { Post } from "../../../types";
 
 const { blog_folder } = config.settings;
 type StaticParams = () => { single: string }[];

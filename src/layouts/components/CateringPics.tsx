@@ -1,6 +1,6 @@
 "use client"
 
-import ImageFallback from "../layouts/helpers/ImageFallback";
+import ImageFallback from "../../layouts/helpers/ImageFallback";
 import LightGallery from 'lightgallery/react';
 import 'lightgallery/css/lightgallery.css';
 import 'lightgallery/css/lg-zoom.css';
