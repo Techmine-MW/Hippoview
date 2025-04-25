@@ -1,10 +1,10 @@
-import { getListPage, getSinglePage } from "@/lib/contentParser";
-import SeoMeta from "@/partials/SeoMeta";
-import { Events } from "@/types";
+import { getListPage, getSinglePage } from "../lib/contentParser";
+import SeoMeta from "../layouts/partials/SeoMeta";
+import { Events } from "../types";
 import Image from "next/image";
 import image1 from "public/images/front-view-of-reception-entrance-at-night.jpg"
-import EventsCard from "@/components/EventsCard";
-import ScrollCardAnimation from "@/components/ScrollCardAnimation";
+import EventsCard from "../layouts/components/EventsCard";
+import ScrollCardAnimation from "../layouts/components/ScrollCardAnimation";
 
 const EventsPage = () => {
     const eventsPageIndex: Events = getListPage("events/_index.md");

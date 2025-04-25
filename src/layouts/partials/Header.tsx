@@ -1,9 +1,9 @@
 "use client";
 
-import Logo from "@/components/Logo";
-import ThemeSwitcher from "@/components/ThemeSwitcher";
-import config from "@/config/config.json";
-import menu from "@/config/menu.json";
+import Logo from "../layouts/components/Logo";
+import ThemeSwitcher from "../layouts/components/ThemeSwitcher";
+import config from "../../config/config.json";
+import menu from "../../config/menu.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect } from "react";
@@ -46,6 +46,7 @@ const Header = () => {
           <Logo />
         </div>
         {/* navbar toggler */}
+        <label htmlFor="nav-toggle" className="sr-only">Toggle navigation</label>
         <input id="nav-toggle" type="checkbox" className="hidden" />
         <label
           htmlFor="nav-toggle"

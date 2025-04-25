@@ -1,5 +1,5 @@
-import config from "@/config/config.json";
-import { RoomDetails } from "@/types";
+import config from "../config/config.json";
+import { RoomDetails } from "../types";
 import Link from "next/link";
 import ImageFallback from "../helpers/ImageFallback";
 

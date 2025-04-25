@@ -30,7 +30,7 @@ export default function ContactForm() {
     });
 
     useEffect(() => {
-        const data = require('@/config/countryCodeData.json');
+        const data = require('../config/countryCodeData.json');
         setCountries(data);
     }, [])
     useEffect(() => {

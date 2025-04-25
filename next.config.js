@@ -20,11 +20,11 @@ const nextConfig = {
     config.resolve.alias = {
       ...config.resolve.alias,
       "@": path.resolve(__dirname, "src"),
-      "@/components": path.resolve(__dirname, "src/layouts/components"),
+      "../layouts/components": path.resolve(__dirname, "src/layouts/components"),
       "@/shortcodes": path.resolve(__dirname, "src/layouts/shortcodes"),
-      "@/partials": path.resolve(__dirname, "src/layouts/partials"),
+      "../layouts/partials": path.resolve(__dirname, "src/layouts/partials"),
       "../layouts/helpers": path.resolve(__dirname, "src/layouts/helpers"),
-      "@/lib": path.resolve(__dirname, "src/lib"),
+      "../lib": path.resolve(__dirname, "src/lib"),
     };
     return config;
   },  

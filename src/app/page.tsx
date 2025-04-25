@@ -1,19 +1,19 @@
 import ImageFallback from "../layouts/helpers/ImageFallback";
-import { getListPage, getSinglePage } from "@/lib/contentParser";
-import { markdownify } from "@/lib/utils/textConverter";
-import SeoMeta from "@/partials/SeoMeta";
-import Testimonials from "@/partials/Testimonials";
-import { Button } from "@/types";
-import RoomCard from "@/components/RoomCard";
-import config from "@/config/config.json";
-import { sortByDateRooms } from "@/lib/utils/sortFunctions";
-import { RoomDetails } from "@/types";
+import { getListPage, getSinglePage } from "../lib/contentParser";
+import { markdownify } from "../lib/utils/textConverter";
+import SeoMeta from "../layouts/partials/SeoMeta";
+import Testimonials from "../layouts/partials/Testimonials";
+import { Button } from "../types";
+import RoomCard from "../layouts/components/RoomCard";
+import config from "../config/config.json";
+import { sortByDateRooms } from "../lib/utils/sortFunctions";
+import { RoomDetails } from "../types";
 const { rooms_folder, pagination } = config.settings;
-import ServicesCard from "@/components/ServicesCard";
-import { Services } from "@/types";
+import ServicesCard from "../layouts/components/ServicesCard";
+import { Services } from "../types";
 import Link from "next/link";
-import ScrollCardAnimation from "@/components/ScrollCardAnimation";
-import HomePagePhotoGallery from "@/components/HomePagePhotoGallery";
+import ScrollCardAnimation from "../layouts/components/ScrollCardAnimation";
+import HomePagePhotoGallery from "../layouts/components/HomePagePhotoGallery";
 
 import styles from "./page.module.css";
 

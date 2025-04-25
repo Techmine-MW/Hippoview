@@ -26,19 +26,19 @@
       }
     ],
     "paths": {
-      "@/components/*": [
+      "../layouts/components/*": [
         "./src/layouts/components/*"
       ],
       "@/shortcodes/*": [
         "./src/layouts/shortcodes/*"
       ],
-      "@/partials/*": [
+      "../layouts/partials/*": [
         "./src/layouts/partials/*"
       ],
       "../layouts/helpers/*": [
         "./src/layouts/helpers/*"
       ],
-      "@/lib/*": [
+      "../lib/*": [
         "./src/lib/*"
       ],
       "@/*": [

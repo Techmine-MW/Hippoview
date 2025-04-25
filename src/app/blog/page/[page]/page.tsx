@@ -1,13 +1,13 @@
-import BlogCard from "@/components/BlogCard";
-import Pagination from "@/components/Pagination";
-import config from "@/config/config.json";
-import { getListPage, getSinglePage } from "@/lib/contentParser";
-import { getAllTaxonomy, getTaxonomy } from "@/lib/taxonomyParser";
-import { sortByDate } from "@/lib/utils/sortFunctions";
-import PageHeader from "@/partials/PageHeader";
-import PostSidebar from "@/partials/PostSidebar";
-import SeoMeta from "@/partials/SeoMeta";
-import { Post } from "@/types";
+import BlogCard from "../layouts/components/BlogCard";
+import Pagination from "../layouts/components/Pagination";
+import config from "../config/config.json";
+import { getListPage, getSinglePage } from "../lib/contentParser";
+import { getAllTaxonomy, getTaxonomy } from "../lib/taxonomyParser";
+import { sortByDate } from "../lib/utils/sortFunctions";
+import PageHeader from "../layouts/partials/PageHeader";
+import PostSidebar from "../layouts/partials/PostSidebar";
+import SeoMeta from "../layouts/partials/SeoMeta";
+import { Post } from "../types";
 
 const { blog_folder, pagination } = config.settings;
 

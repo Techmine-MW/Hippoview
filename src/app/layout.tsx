@@ -1,12 +1,12 @@
-import config from "@/config/config.json";
-import theme from "@/config/theme.json";
+import config from "../config/config.json";
+import theme from "../config/theme.json";
 import { Suspense } from "react";
 import Loading from "./loading";
-import Footer from "@/partials/Footer";
-import Header from "@/partials/Header";
-import Providers from "@/partials/Providers";
-import "@/styles/main.scss";
-import SmoothScrolling from "@/components/SmoothScrolling";
+import Footer from "../layouts/partials/Footer";
+import Header from "../layouts/partials/Header";
+import Providers from "../layouts/partials/Providers";
+import "../styles/main.scss";
+import SmoothScrolling from "../layouts/components/SmoothScrolling";
 
 export default function RootLayout({
   children,

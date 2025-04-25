@@ -1,10 +1,10 @@
-import ImageFallback from "../layouts/helpers/ImageFallback";
-import MDXContent from "../layouts/helpers/MDXContent";
-import ConferenceRoomPageHeaderImages from "@/layouts/ConferenceRoomPageHeaderImages";
-import { getSinglePage } from "@/lib/contentParser";
-import { humanize } from "@/lib/utils/textConverter";
-import SeoMeta from "@/partials/SeoMeta";
-import { ConfRoomDetails } from "@/types";
+import ImageFallback from "../../../layouts/helpers/ImageFallback";
+import MDXContent from "../../../layouts/helpers/MDXContent";
+import ConferenceRoomPageHeaderImages from "../../../layouts/ConferenceRoomPageHeaderImages";
+import { getSinglePage } from "../../../lib/contentParser";
+import { humanize } from "../../../lib/utils/textConverter";
+import SeoMeta from "../../../layouts/partials/SeoMeta";
+import { ConfRoomDetails } from "../../../types";
 import Link from "next/link";
 
 // remove dynamicParams

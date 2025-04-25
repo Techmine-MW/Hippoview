@@ -1,8 +1,8 @@
-import SeoMeta from "@/partials/SeoMeta";
+import SeoMeta from "../layouts/partials/SeoMeta";
 import Image from "next/image";
-import ScrollCardAnimation from "@/components/ScrollCardAnimation";
-import { getListPage } from "@/lib/contentParser";
-import GalleryPagePhotoGallery from "@/components/GalleryPagePhotoGallery";
+import ScrollCardAnimation from "../layouts/components/ScrollCardAnimation";
+import { getListPage } from "../lib/contentParser";
+import GalleryPagePhotoGallery from "../layouts/components/GalleryPagePhotoGallery";
 
 const Gallery = () => {
     const galleryPage = getListPage("gallery/_index.md");

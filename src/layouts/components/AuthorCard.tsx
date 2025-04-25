@@ -1,6 +1,6 @@
-import Social from "@/components/Social";
+import Social from "../layouts/components/Social";
 import ImageFallback from "../layouts/helpers/ImageFallback";
-import { plainify } from "@/lib/utils/textConverter";
+import { plainify } from "../lib/utils/textConverter";
 import Link from "next/link";
 
 const AuthorCard = ({ data }: { data: any }) => {

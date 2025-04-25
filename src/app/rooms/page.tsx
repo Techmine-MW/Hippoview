@@ -1,9 +1,9 @@
-import { getListPage, getSinglePage } from "@/lib/contentParser";
-import RoomPageCard from "@/components/RoomPageCard";
-import { RoomDetails } from "@/types";
-import SeoMeta from "@/partials/SeoMeta";
+import { getListPage, getSinglePage } from "../lib/contentParser";
+import RoomPageCard from "../layouts/components/RoomPageCard";
+import { RoomDetails } from "../types";
+import SeoMeta from "../layouts/partials/SeoMeta";
 import ImageFallback from "../layouts/helpers/ImageFallback";
-import ScrollCardAnimation from "@/components/ScrollCardAnimation";
+import ScrollCardAnimation from "../layouts/components/ScrollCardAnimation";
 
 // for all regular pages
 const Rooms = () => {

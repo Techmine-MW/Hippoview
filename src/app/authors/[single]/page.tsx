@@ -1,12 +1,12 @@
-import BlogCard from "@/components/BlogCard";
-import Social from "@/components/Social";
-import config from "@/config/config.json";
+import BlogCard from "../layouts/components/BlogCard";
+import Social from "../layouts/components/Social";
+import config from "../config/config.json";
 import ImageFallback from "../layouts/helpers/ImageFallback";
 import MDXContent from "../layouts/helpers/MDXContent";
-import { getSinglePage } from "@/lib/contentParser";
-import { slugify } from "@/lib/utils/textConverter";
-import SeoMeta from "@/partials/SeoMeta";
-import { Author, Post } from "@/types";
+import { getSinglePage } from "../lib/contentParser";
+import { slugify } from "../lib/utils/textConverter";
+import SeoMeta from "../layouts/partials/SeoMeta";
+import { Author, Post } from "../types";
 
 // remove dynamicParams
 export const dynamicParams = false;

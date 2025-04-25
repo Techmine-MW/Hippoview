@@ -1,9 +1,9 @@
-import ScrollCardAnimation from "@/components/ScrollCardAnimation";
-import ImageFallback from "../layouts/helpers/ImageFallback";
-import RecreationActivitiesPics from "@/layouts/RecreationActivitiesPics";
-import { getListPage } from "@/lib/contentParser";
-import { humanize } from "@/lib/utils/textConverter";
-import SeoMeta from "@/partials/SeoMeta";
+import ScrollCardAnimation from "../../layouts/components/ScrollCardAnimation";
+import ImageFallback from "../../layouts/helpers/ImageFallback";
+import RecreationActivitiesPics from "../../layouts/RecreationActivitiesPics";
+import { getListPage } from "../../lib/contentParser";
+import { humanize } from "../../lib/utils/textConverter";
+import SeoMeta from "../../layouts/partials/SeoMeta";
 
 const RecreationActivities = () => {
     const recreation = getListPage("recreation/_index.md");

@@ -1,6 +1,6 @@
-import { getListPage } from "@/lib/contentParser";
-import SeoMeta from "@/partials/SeoMeta";
-import { RegularPage } from "@/types";
+import { getListPage } from "../../lib/contentParser";
+import SeoMeta from "../../layouts/partials/SeoMeta";
+import { RegularPage } from "../../types";
 import { FaMapLocation } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -8,8 +8,8 @@ import { FaClock } from "react-icons/fa";
 import Image from "next/image";
 import image1 from "public/images/close-up-flowers-around-fountain.jpg"
 import image2 from "public/images/view-of-beach-and-lake-at-sunset.jpg"
-import ScrollCardAnimation from "@/components/ScrollCardAnimation";
-import ContactForm from "@/layouts/ContactFormSection";
+import ScrollCardAnimation from "../../layouts/components/ScrollCardAnimation";
+import ContactForm from "../../layouts/ContactFormSection";
 
 const Contact = async () => {
   const data: RegularPage = getListPage("contact/_index.md");
