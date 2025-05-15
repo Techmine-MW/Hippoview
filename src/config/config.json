@@ -27,7 +27,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by Techmine INC."
+    "copyright": "Designed And Developed by [Techmine INC.](https://techminemw.com)."
   },
 
   "navigation_button": {
@@ -38,7 +38,7 @@
 
   "disqus": {
     "enable": false,
-    "shortname": "hippoview-template",
+    "shortname": "techmine-hippoview-template",
     "settings": {}
   },
 

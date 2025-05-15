@@ -1,9 +1,9 @@
 ---
 title: Shire Hall
 meta_title: "Versatile Conference Spaces at Hippoview  Lodge | Boardrooms and Meeting Halls for Every Event"
-description: "Discover the perfect venue for your event at Hippoview  Lodge. Explore our diverse conference spaces, from intimate boardrooms to spacious meeting halls. Ideal for gatherings of 10 to 300 attendees, our versatile venues ensure a seamless and successful event experience on the shores of Shire River."
+description: "Discover the perfect venue for your event at Hippoview  Lodge. Explore our diverse conference spaces, from intimate boardrooms to spacious meeting halls. Ideal for gatherings of 10 to 400 attendees, our versatile venues ensure a seamless and successful event experience on the shores of Shire River."
 image: "https://kwhkgdtbuzixujazmjgb.supabase.co/storage/v1/object/public/hippoviewpics/Halls/IMG_9053.jpg"
-capacity: "100 delegates"
+capacity: "120 delegates"
 size: "100m2"
 event_type: "Meetings"
 image1: "/images/image-placeholder.png"
