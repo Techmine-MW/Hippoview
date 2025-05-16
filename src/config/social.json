@@ -3,17 +3,22 @@
     {
       "name": "facebook",
       "icon": "FaFacebook",
-      "link": "https://www.facebook.com/"
+      "link": "https://web.facebook.com/techmine.mw"
     },
     {
       "name": "twitter",
-      "icon": "FaTwitter",
-      "link": "https://twitter.com/"
+      "icon": "FaX",
+      "link": "https://x.com/TechMine_Mw"
     },
     {
       "name": "linkedin",
       "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/"
+      "link": "https://www.linkedin.com/company/techmine-inc/?viewAsMember=true"
+    },
+    {
+      "name": "instagram",
+      "icon": "FaInstagram",
+      "link": "https://www.instagram.com/techmine.mw/"
     }
   ]
 }

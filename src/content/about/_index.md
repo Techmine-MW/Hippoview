@@ -32,7 +32,7 @@ stories:
       link: "#"
 
   - title: "Indulge in Luxury. Our Exquisite Rooms:"
-    image: "https://kwhkgdtbuzixujazmjgb.supabase.co/storage/v1/object/public/hippoviewpics/Deluxe%20Rooms%20%20/IMG_9289.jpg"
+    image: "https://kwhkgdtbuzixujazmjgb.supabase.co/storage/v1/object/public/hippoviewpics/Deluxe%20Rooms%20/IMG_9289.jpg"
     alt: "View of 2 blocks of rooms"
     content: "Step into a world of comfort and style with our meticulously designed rooms at Hippoview . Each space is a testament to our dedication to providing an exceptional stay."
     bulletpoints:

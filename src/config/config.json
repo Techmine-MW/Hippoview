@@ -3,7 +3,7 @@
     "title": "Hippoview Lodge | Best Lodge in Malawi",
     "base_url": "https://hippoviewpicslodge.com",
     "base_path": "/",
-    "trailing_slash": false,
+    "trailing_slash": true,
     "favicon": "/images/favicon.ico",
     "logo": "/images/Hippoview-logo.png",
     "logo_darkmode": "/images/Hippoview-logo.png",
@@ -27,7 +27,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Techmine INC.](https://techminemw.com)."
+    "copyright": "Powered by [Techmine INC](https://techminemw.com)."
   },
 
   "navigation_button": {
