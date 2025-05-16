@@ -1,11 +1,16 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  # Remove .html extensions
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteCond %{REQUEST_FILENAME}\.html -f
-  RewriteRule ^(.*)$ $1.html [L]
+  RewriteBase /
 
-  # Redirect to clean URLs if .html is explicitly requested
-  RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
-  RewriteRule ^ /%1 [NC,L,R=301]
+  # Redirect non-trailing-slash URLs to trailing-slash versions
+  RewriteCond %{REQUEST_URI} /+[^\.]+$
+  RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+
+  # Internally rewrite to index.html in directories
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)/$ $1/index.html [L]
+
+  # Handle 404 errors
+  ErrorDocument 404 /404.html
 </IfModule>

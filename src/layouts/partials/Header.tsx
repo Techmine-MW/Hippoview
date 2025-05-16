@@ -34,6 +34,18 @@ const Header = () => {
   // scroll to top on route change
   useEffect(() => {
     window.scroll(0, 0);
+
+    // Close mobile menu
+    const navToggle = document.getElementById("nav-toggle") as HTMLInputElement;
+    if (navToggle) {
+      navToggle.checked = false;
+    }
+
+    // Optional: Remove backdrop if you have one
+    const body = document.querySelector("body");
+    if (body) {
+      body.classList.remove("mobile-menu-open");
+    }
   }, [pathname]);
 
   return (
@@ -46,7 +58,12 @@ const Header = () => {
           <Logo />
         </div>
         {/* navbar toggler */}
-        <input id="nav-toggle" type="checkbox" className="hidden" />
+        <input
+          id="nav-toggle"
+          type="checkbox"
+          className="hidden"
+          title="Toggle navigation menu"
+        />
         <label
           htmlFor="nav-toggle"
           className="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1"
@@ -82,13 +99,14 @@ const Header = () => {
               {menu.hasChildren ? (
                 <li className="nav-item nav-dropdown group relative">
                   <span
-                    className={`nav-link inline-flex items-center text-lg text-fontColor hover:text-fontColorHover ${menu.children?.map(({ url }) => url).includes(pathname) ||
+                    className={`nav-link inline-flex items-center text-lg text-fontColor hover:text-fontColorHover ${
+                      menu.children?.map(({ url }) => url).includes(pathname) ||
                       menu.children
                         ?.map(({ url }) => `${url}/`)
                         .includes(pathname)
-                      ? "active"
-                      : ""
-                      }`}
+                        ? "active"
+                        : ""
+                    }`}
                   >
                     {menu.name}
                     <svg className="h-4 w-4 fill-current" viewBox="0 0 20 20">
@@ -100,10 +118,11 @@ const Header = () => {
                       <li className="nav-dropdown-item" key={`children-${i}`}>
                         <Link
                           href={child.url}
-                          className={`nav-dropdown-link text-lg text-fontColor hover:text-fontColorHover block ${(pathname === `${child.url}/` ||
-                            pathname === child.url) &&
+                          className={`nav-dropdown-link text-lg text-fontColor hover:text-fontColorHover block ${
+                            (pathname === `${child.url}/` ||
+                              pathname === child.url) &&
                             "active"
-                            }`}
+                          }`}
                         >
                           {child.name}
                         </Link>
@@ -115,9 +134,10 @@ const Header = () => {
                 <li className="nav-item">
                   <Link
                     href={menu.url}
-                    className={`nav-link text-lg text-fontColor hover:text-fontColorHover block ${(pathname === `${menu.url}/` || pathname === menu.url) &&
+                    className={`nav-link text-lg text-fontColor hover:text-fontColorHover block ${
+                      (pathname === `${menu.url}/` || pathname === menu.url) &&
                       "active"
-                      }`}
+                    }`}
                   >
                     {menu.name}
                   </Link>
